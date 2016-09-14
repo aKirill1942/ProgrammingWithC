@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		251DE4231D89E22300A3920F /* task1.h in Sources */ = {isa = PBXBuildFile; fileRef = 251DE4221D89E22300A3920F /* task1.h */; };
 		25E3FE001D8185F500574EE5 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 25E3FDFF1D8185F500574EE5 /* main.c */; };
 		25E3FE071D81861D00574EE5 /* 08-09-2016.c in Sources */ = {isa = PBXBuildFile; fileRef = 25E3FE061D81861D00574EE5 /* 08-09-2016.c */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		251DE4221D89E22300A3920F /* task1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = task1.h; sourceTree = "<group>"; };
+		251DE4241D89E40500A3920F /* task2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = task2.h; sourceTree = "<group>"; };
 		25E3FDFC1D8185F500574EE5 /* ProgrammingWithC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ProgrammingWithC; sourceTree = BUILT_PRODUCTS_DIR; };
 		25E3FDFF1D8185F500574EE5 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		25E3FE061D81861D00574EE5 /* 08-09-2016.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = "08-09-2016.c"; sourceTree = "<group>"; };
@@ -60,6 +63,8 @@
 			isa = PBXGroup;
 			children = (
 				25E3FDFF1D8185F500574EE5 /* main.c */,
+				251DE4221D89E22300A3920F /* task1.h */,
+				251DE4241D89E40500A3920F /* task2.h */,
 				25E3FE061D81861D00574EE5 /* 08-09-2016.c */,
 			);
 			path = ProgrammingWithC;
@@ -123,6 +128,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				251DE4231D89E22300A3920F /* task1.h in Sources */,
 				25E3FE001D8185F500574EE5 /* main.c in Sources */,
 				25E3FE071D81861D00574EE5 /* 08-09-2016.c in Sources */,
 			);
@@ -259,6 +265,7 @@
 				25E3FE051D8185F500574EE5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
